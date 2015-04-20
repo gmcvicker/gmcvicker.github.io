@@ -450,16 +450,16 @@
              zoom: 14, 
              markers: 
 			 	[
-			 		{
-                 		latitude: -33.898361, 
-                 		longitude: 151.175290, 
-                 		html: "<strong>Manalia Tower</strong>", 
+			 	    {
+                 		latitude: 42.370563,
+                 		longitude: -71.097199, 
+                 		html: "<strong>Oleana</strong>", 
                 		popup: true,               
 					},
 					{
-                		latitude: -33.905485, 
-                 		longitude: 151.169131, 
-                 		html: "<strong>Comfort Inn</strong>", 
+                		latitude: 42.359512, 
+                 		longitude: -71.112598, 
+                 		html: "<strong>Our House</strong>", 
                  		popup: true,               
                     } 
                 ], 
