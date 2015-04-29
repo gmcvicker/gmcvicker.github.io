@@ -18,7 +18,7 @@
 			});
 		
     		$("body").queryLoader2({
-        		barColor: "#00c0b6",
+        		barColor: "#ad8763",
         		percentage: true,
         		barHeight: 6,
         		completeAnimation: "grow",
@@ -66,7 +66,7 @@
 		window.addEventListener("DOMContentLoaded", function() {	
 		
     		$("body").queryLoader2({
-        		barColor: "#00c0b6",
+        		barColor: "#ad8763",
         		percentage: true,
         		barHeight: 6,
         		completeAnimation: "fade",
