@@ -1,35 +1,33 @@
 <?php 
 	
-	if ($_POST["input_name"] == "")
+	if ($_POST["inputname"] == "")
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Name fields are empty!'));
 		die($output);
 	}
-	elseif ($_POST["input_email"] == "")
+	elseif ($_POST["inputemail"] == "")
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Email fields are empty!'));
 		die($output);
 	}
-	elseif ($_POST["input_events"] == "")
+	elseif ($_POST["inputevents"] == "")
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Events fields are empty!'));
 		die($output);
 	}
 	else
 	{
-		$email_to 			=   'some@email.com'; 
-		$contact_name     	=   $_POST['input_name'];  
-		$contact_email    	=   $_POST['input_email'];
-    	$contact_events 	=   $_POST['input_events'];	
+		$email_to 			=   'rsvp@grahamandrenee.com'; 
+		$contact_name     	=   $_POST['inputname'];  
+		$contact_email    	=   $_POST['inputemail'];
 		$contact_events_string = implode(", ", $contact_events);
-		$contact_message  	=   $_POST['input_message'];
+		$contact_message  	=   $_POST['inputmessage'];
 	
     	$headers  	= "From: ".$contact_email."\r\n";	
 		$headers   .= "Reply-To: ".$contact_email."\r\n";	
-		$subject 	= "RSVP message from Mr/Mrs ".$contact_name;		
+		$subject 	= "RSVP message from ".$contact_name;		
 		
 		$finalmessage = "$contact_message \n\n";
-		$finalmessage.= "I will attend to: ". $contact_events_string;
 
     	if(mail($email_to, $subject, $finalmessage, $headers)){
         	$output = json_encode(array('type'=>'success', 'text' => 'Message Sent'));
