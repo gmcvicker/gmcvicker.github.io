@@ -450,18 +450,44 @@
              zoom: 14, 
              markers: 
 			 	[
-			 	    {
+			 	{
                  		latitude: 42.370563,
                  		longitude: -71.097199, 
                  		html: "<strong>Oleana</strong>", 
                 		popup: true,               
-					},
-					{
+				},
+				{
                 		latitude: 42.359512, 
                  		longitude: -71.112598, 
                  		html: "<strong>Our House</strong>", 
-                 		popup: true,               
-                    } 
+                 		popup: true, 
+				},
+				{
+                		latitude: 42.36223,
+                 		longitude: -71.087383,
+                 		html: "<strong>The Kendall Hotel</strong>", 
+                 		popup: true, 
+				},
+				    {
+				latitude: 42.372298,
+                 		longitude: -71.123068,
+                 		html: "<strong>The Charles Hotel</strong>", 
+                 		popup: true, 
+
+				    },
+				{
+				latitude: 42.377252,
+                 		longitude: -71.123311,
+                 		html: "<strong>The Sheraton Commander Hotel</strong>", 
+                 		popup: true, 
+				},
+				{
+				latitude: 42.358581,
+                 		longitude: -71.114855,
+                 		html: "<strong>The Courtyard Marriott Cambridge</strong>", 
+                 		popup: false, 
+				}
+				    
                 ], 
              panControl: true, 
              zoomControl: true, 
