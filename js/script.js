@@ -98,7 +98,8 @@
 			[ 
 //				{	image : 'http://placehold.it/1600x1063' } ,
 			    //				{	image : 'http://placehold.it/1600x1063' }
-			    {image : 'images/graham_renee_brick_wall_1600x1040.jpg'}
+			    // {image : 'images/graham_renee_brick_wall_1600x1040.jpg'}
+			    {image : 'images/graham_renee_kiss.jpg'}
 			    
 			]
 		});

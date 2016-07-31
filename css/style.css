@@ -257,11 +257,14 @@ a:focus{
 }
 
 #photo_divider1{
-	background-image:url("../images/boston_bu_bridge_1366x984.jpg");
+    /*	background-image:url("../images/boston_bu_bridge_1366x984.jpg");*/
+    	background-image:url("../images/wedding_rings.jpg");
+    
 }
 
 #photo_divider2{
-	background-image:url("../images/boston_bu_bridge_1366x984.jpg");
+    /* background-image:url("../images/boston_bu_bridge_1366x984.jpg"); */
+    background-image:url("../images/dessert.jpg");
 	background-position:top center;
 }
 
